@@ -27,21 +27,15 @@ public class RotationOfArrays {
 	
 	public static void main(String[] args) {
 		
-		int[] arr = {12,32,412,412,12,321,4124,4123};
+		int[] arr = {12,32,412,412,12,321,4124,412};
 		
 		int temp = arr[0];
 		int temp1 = arr[arr.length-1];
 		
-			//leftRotation(arr, temp);
+
 			RightRotation(arr, temp1);
 		
-		/*
-		 * for(int a : arr) {
-		 * 
-		 * System.out.println(a+",");
-		 * 
-		 * }
-		 */
+		
 		
 		
 	}
